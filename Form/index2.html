@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Formularios</h1>
+    </header>
+
+    <section id="Formularios">
+      <form action="">
+        <div>
+          <label for="nome">Nome: </label>
+          <input
+            id="nome"
+            type="text"
+            name="nome"
+            placeholder="Digite seu nome: "
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email">Email: </label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Digite seu email: "
+            required
+          />
+        </div>
+
+        <div>
+          <label for="phone">Telefone: </label>
+          <input
+            id="phone"
+            type="text"
+            name="phone"
+            placeholder="DDD + Numero: "
+            required
+          />
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+          <label for="textarea">Mensagem: </label>
+          <textarea
+            name="Mensagem"
+            id="Mensagem"
+            placeholder=" Deixe sua mensagem, por favor!"
+          ></textarea>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

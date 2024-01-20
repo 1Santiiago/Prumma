@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.header {
+  text-align: center;
+  background-color: chocolate;
+}
+
+#Formularios {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0.5em auto;
+}
+
+#Formularios form {
+  width: 50%;
+}
+
+#Formularios form div {
+  width: 50%;
+  margin: 0.45rem auto;
+}
+
+label {
+}
+
+#Formularios form div input {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.4rem;
+}
+
+textarea {
+  resize: none;
+  padding: 0.3rem;
+  color: chocolate;
+}

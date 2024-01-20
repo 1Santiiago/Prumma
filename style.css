@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  background-color: chocolate;
+}
+
+header h1 {
+  color: white;
+  padding: 0.6em;
+}
+
+.exercicios {
+  width: 50%;
+  margin: 10rem auto;
+}
+
+li {
+  margin: 1.5rem;
+}
+
+a {
+  font-size: 19px;
+  text-decoration: none;
+}
