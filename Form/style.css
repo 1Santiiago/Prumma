@@ -41,3 +41,17 @@ textarea {
   padding: 0.3rem;
   color: chocolate;
 }
+
+button {
+  width: 50%;
+  margin: 10px auto;
+  background-color: chocolate;
+  font-size: 1.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+button:hover {
+  background: linear-gradient(to right, #f4a460, #7b68ee);
+}
